@@ -73,7 +73,7 @@ import CsrfProtection, {
   CsrfExpireToken,
   CsrfIgnoreRoutesToken,
 } from 'fusion-plugin-csrf-protection-react';
-import fetch from unfetch;
+import fetch from 'unfetch';
 
 export default () => {
   const app = new App(<div></div>);
